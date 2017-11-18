@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>前端简历-吴柏宏</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .navbar{
+        margin-bottom: 0px;
+      }
+      .carousel .item{
+        height: 350px;
+      }
+      .tab-margin{
+        margin-top: 50px;
+      }
+      .bg-primary{
+        margin-top: 80px;
+        padding: 5px;
+        display: inline-block;
+      }
+      #intro{
+        margin-top: 35px;
+      }
+      .nav-tabs{
+        margin-top: 50px;
+      }
+      footer{
+        height: 60px;
+        margin-top: 50px;
+        background: #f8f8f8;
+      }
+      footer p{
+        line-height: 60px;
+        margin-bottom: 0px;
+      }
+      .carousel-inner h3,.carousel-inner p{
+        color: #000;
+      }
+    </style>
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- 导航 -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">前端简历</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">吴柏宏</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">作品范例 <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#html">html&css</a></li>
+                <li><a href="#js">javascript</a></li>
+                <li><a href="#frame">框架&工具</a></li>
+                <li><a href="#back-end">后端语言</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#rests">其他</a></li>
+              </ul>
+            </li>
+            <li><a href="#" data-container="body" data-toggle="popover" data-placement="bottom" data-content="电话：18071597173">联系方式</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- 轮播 -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="img/cefqnb5iE1etU.jpg" alt="css">
+          <div class="carousel-caption">
+            <h3>html</h3>
+            <p>超文本标记语言</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/ceDQO1ifxeO0M.jpg" alt="js">
+          <div class="carousel-caption">
+            <h3>css</h3>
+            <p>层叠样式表</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/ce27PCQ2JQokw.jpg" alt="html">
+          <div class="carousel-caption">
+            <h3>js</h3>
+            <p>JavaScript一种直译式脚本语言，是一种动态类型、弱类型、基于原型的语言，内置支持类型。</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!-- tab -->
+    <div class="container">
+
+      <div class="row" id="intro">
+        <div class="col-md-6">
+          <div class="panel panel-primary">
+            <!-- Default panel contents -->
+            <div class="panel-heading">个人简介</div>
+            <div class="panel-body">
+              <p><h3>吴柏宏</h3></p>
+            </div>
+
+            <!-- List group -->
+            <ul class="list-group">
+              <li class="list-group-item">1994.07 男</li>
+              <li class="list-group-item">电话：18071597173</li>
+              <li class="list-group-item">微信：wuyouvv</li>
+              <li class="list-group-item">邮箱：977106024@qq.com</li>
+              <li class="list-group-item">博客地址：<a target="_blank" href="http://www.jianshu.com/u/f48e5cc3ecde">http://www.jianshu.com/u/f48e5cc3ecde</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="panel panel-primary">
+            <!-- Default panel contents -->
+            <div class="panel-heading">工作经验</div>
+            <div class="panel-body">
+              <ul>
+                <li>负责公司网站seo优化，网站内容编辑，网站关键词,推广的优化。</li>
+                <li>使用站长工具来监测网站权重、流量、关键词。</li>
+                <li>公司官网有5个，经销商的网站有20个。</li>
+                <li>熟悉ps、cdr的使用，帮公司设计过易拉宝、锦旗、网站图标等。</li>
+              </ul>
+            </div>
+            <!-- List group -->
+            <ul class="list-group">
+              <li class="list-group-item">武汉齐峰伟业有限公司 (2015年11月~2017年08月)</li>
+              <li class="list-group-item">所任职务：SEO优化</li>
+              <li class="list-group-item">热爱前端行业：一直保持学习热情，工作之余把前端知识整理成博客。</li>
+              <li class="list-group-item"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" role="tablist" id="tab-list">
+        <li role="presentation" class="active"><a href="#html" aria-controls="html" role="tab" data-toggle="tab">html&css</a></li>
+        <li role="presentation"><a href="#js" aria-controls="js" role="tab" data-toggle="tab">Javascript</a></li>
+        <li role="presentation"><a href="#frame" aria-controls="frame" role="tab" data-toggle="tab">框架&工具</a></li>
+        <li role="presentation"><a href="#back-end" aria-controls="back-end" role="tab" data-toggle="tab">后端语言</a></li>
+        <li role="presentation"><a href="#rests" aria-controls="rests" role="tab" data-toggle="tab">其他</a></li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="html">
+          <ul class="tab-margin">
+            <li>熟知W3C规范、对于html5、css3的标签、属性、代码规范等都能熟练的使用。</li>
+            <li>常见布局、主流浏览器的兼容、响应式等技术</li>
+            <li>浮动定位、BFC 、盒模型、3D动画、flex布局</li>
+            <li>垂直居中、伪类与伪元素等</li>
+            <li>常用WebStrom，atom代码编辑器，svn，Git，Linux命令行。</li>
+          </ul>
+
+          <!-- 表格 -->
+          <div class="table-responsive">
+            <p class="bg-primary">作品范例</p>
+            <table class="table table-hover">
+              <tr>
+                <th><a target="_blank" href="http://1.ahong9771.applinzi.com/works/layout/preview.html">常见布局整理</a></th>
+                <td>其中包括侧边栏、单栏布局、三栏布局、双飞翼、双倍布局、图片列表、flex布局。</td>
+                <!-- <td><a target="_blank" href="http://1.ahong9771.applinzi.com/works/layout/preview.html">在线地址</a></td> -->
+              </tr>
+              <tr>
+                <th><a target="_blank" href="http://1.ahong9771.applinzi.com/works/css3/animation.html">css3 loading动画</a></th>
+                <td>1.主要利用了box-shadow阴影效果与css动画延迟技术。2.边框+border-radius做成圆形，再利用css3动画rotate(360deg)</td>
+                <!-- <td>在线地址</td> -->
+              </tr>
+              <tr>
+                <th><a target="_blank" href="http://1.ahong9771.applinzi.com/works/css3/css3.html">css3 2d/3d效果</a></th>
+                <td>使用了border-radius、box-shadow、animation、transform，旋转位移、颜色渐变等技术</td>
+                <!-- <td>在线地址</td> -->
+              </tr>
+              <tr>
+                <th><a target="_blank" href="http://1.ahong9771.applinzi.com/works/%E9%9D%99%E6%80%81%E9%A1%B5%E9%9D%A2/%E5%AE%9E%E6%88%98task15-2.html#">代码规范的静态页面</a></th>
+                <td>运用了垂直居中、伪类与伪元素、浮动定位、字体图标、负marin等</td>
+              </tr>
+              <tr>
+                <th><a target="_blank" href="http://www.jianshu.com/p/652a4839fc94">bfc概念相关博客</a></th>
+                <td>总结了inline-block、bfc、边距合并的原理，还有一些例子。</td>
+              </tr>
+            </table>
+          </div>
+
+        </div>
+        <div role="tabpanel" class="tab-pane" id="js">
+          <ul class="tab-margin">
+            <li>熟悉前端模块化、组件化、自动化的开发。</li>
+            <li>掌握面向对象、原型、原型链、继承理论和运用。</li>
+            <li>熟知同源策略与跨域的多种方法，如降域、jsonp、cors、window.postMessage</li>
+            <li>熟练使用ajax，能够在本地使用server-mock来模拟后端数据</li>
+            <li>灵活运用事件绑定、事件代理、事件冒泡、事件兼容等dom操作，实现想要的效果。</li>
+            <li>了解闭包原理、以及定时器、bom相关操作</li>
+            <li>熟知前端常见设计模式，如模块模式、工厂模式、单列模式、发布订阅模式等</li>
+            <li>jquery 、jquery插件、jQuery的ajax使用。</li>
+            <li>了解ES6的基本语法</li>
+          </ul>
+
+          <div class="table-responsive">
+            <p class="bg-primary">作品范例</p>
+            <table class="table table-hover">
+              <tr>
+                <th><a target="_blank" href="http://1.ahong9771.applinzi.com/works/%E6%96%B0%E9%97%BB%E6%88%98/%E6%96%B0%E9%97%BB%E7%AB%99.html">新闻站</a></th>
+                <td>ajax+瀑布流+懒加载</td>
+              </tr>
+              <tr>
+                <th><a target="_blank" href="http://www.jianshu.com/p/bd03fcfb529d">原型链相关博客</a></th>
+                <td>总结了this、原型链、继承的原型和具体使用。</td>
+              </tr>
+              <tr>
+                <th><a target="_blank" href="http://1.ahong9771.applinzi.com/works/ui%E7%BB%84%E4%BB%B6%E5%BA%93/ul.html">ui组件库</a></th>
+                <td>封装了tab组件、轮播组件、日历组件、modal组件、曝光加载组件。</td>
+              </tr>
+            </table>
+          </div>
+
+        </div>
+        <div role="tabpanel" class="tab-pane" id="frame">
+          <ul class="tab-margin">
+            <li>熟悉Bootstrap框架的使用。</li>
+            <li>能够使用less、sass、postcss来编译css。</li>
+            <li>熟悉webpack、gulp前端工具的使用。如css预编译、后编译、js、图片打包等</li>
+            <li>掌握require.js的使用，以及r.js打包。</li>
+            <li>能够使用vue-cli开发vue项目，熟知其生命周期，以及vuex在项目中的运用。</li>
+            <li>react</li>
+          </ul>
+
+          <div class="table-responsive">
+            <p class="bg-primary">作品范例</p>
+            <table class="table table-hover">
+              <tr>
+                <th><a target="_blank" href="http://1.ahong9771.applinzi.com/works/%E5%AE%A2%E5%BA%97/kedian.html">家乡的网站</a></th>
+                <td>css部分使用了less编写，代码使用了webpack打包，图片使用webpack插件压缩。</td>
+              </tr>
+              <tr>
+                <th>本简历用Bootstrap制作</th>
+                <td>使用了Bootstrap的导航条组件、轮播组件、标签页组件、表格样式，以及自己写了一点css与js。</td>
+              </tr>
+              <tr>
+                <th><a target="_blank" href="http://1.ahong9771.applinzi.com/works/%E8%87%AA%E9%80%82%E5%BA%94%E6%A0%85%E6%A0%BC%E7%B3%BB%E7%BB%9F.html">自适应栅格系统</a></th>
+                <td>Bootstrap的响应式布局就是栅格系统，其实就是媒体查询+浮动+百分比。</td>
+              </tr>
+              <tr>
+                <th><a target="_blank" href="https://977106024.github.io/vue-resumer/dist/index.html#/">在线简历编辑器</a></th>
+                <td>使用了vue、vuex、sass，登陆注册使用的leancloud。</td>
+              </tr>
+              <tr>
+                <th><a target="_blank" href="https://github.com/977106024/vue-mk1">一个vue售卖平台</a></th>
+                <td>打开链接是github上的源码</td>
+              </tr>
+            </table>
+          </div>
+
+        </div>
+        <div role="tabpanel" class="tab-pane" id="back-end">
+          <ul class="tab-margin">
+            <li>掌握node.js的使用，npm包的管理与发布。</li>
+            <li>掌握http、https相关知识，掌握了其HTTP报文、缓存控制，状态码等知识。</li>
+            <li>了解php的使用，数据解析、传输格式，与后端的联调协作。</li>
+          </ul>
+
+          <div class="table-responsive">
+            <p class="bg-primary">作品范例</p>
+            <table class="table">
+              <tr>
+                <th><a target="_blank" href="https://github.com/977106024/ahong-weather">Node命令行查询天气的工具</a></th>
+                <td>使用了一个get的请求天气数据。使用了一些ES6语法。</td>
+              </tr>
+              <tr>
+                <th><a target="_blank" href="http://www.jianshu.com/p/5135badadec0">http相关博客</a></th>
+                <td>http工作原理、与服务器交互方法、状态码、浏览器缓存控制等</td>
+              </tr>
+            </table>
+          </div>
+
+        </div>
+        <div role="tabpanel" class="tab-pane" id="rests">
+          <ul class="tab-margin">
+            <li>会使用photoshop cdr软件   给公司做过易拉宝、品牌笔、笔记本、锦旗、企业站上的样式图标等</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <footer>
+      <div class="container">
+        <p class="pull-right"><a href="#top">回到顶部</a></p>
+        <p>©2017 aHong</p>
+      </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(function () {
+        $('[data-toggle="popover"]').popover()
+      })
+      $('#bs-example-navbar-collapse-1 .dropdown-menu a').click(function () {
+        var href = $(this).attr('href');
+        console.log(href);
+
+        $('#tab-list a[href="'+ href +'"]').tab('show');
+      })
+    </script>
+  </body>
+</html>
